@@ -1,0 +1,145 @@
+[
+  {
+    "id": 5,
+    "name": "The Olive Kitchen & Bar",
+    "category": "Restaurant",
+    "cuisine": "Europ\u00e6isk",
+    "location": "Noerregade 22",
+    "rating": 5.0,
+    "note": "Fantastisk service, mad og stemning til en fantastisk pris.",
+    "lat": 55.6812506,
+    "lng": 12.5713913
+  },
+  {
+    "id": 6,
+    "name": "Hyttefadet",
+    "category": "Restaurant",
+    "cuisine": "Gastropub",
+    "location": "Nyhavn 25",
+    "rating": 5.0,
+    "note": "Sublim service, kolde \u00f8l, h\u00f8j sol.",
+    "lat": 55.6803093,
+    "lng": 12.5898163
+  },
+  {
+    "id": 7,
+    "name": "Smagsloeget",
+    "category": "Fastfood",
+    "cuisine": "International",
+    "location": "Vesterbrogade 19",
+    "rating": 3.0,
+    "note": "Ok, dyrt og lidt kedeligt.",
+    "lat": 55.6729722,
+    "lng": 12.5597202
+  },
+  {
+    "id": 8,
+    "name": "Sporvejen",
+    "category": "Point of interest",
+    "cuisine": "Amerikansk",
+    "location": "Graabroedretorv 17",
+    "rating": 0.0,
+    "note": "",
+    "lat": 55.6794686,
+    "lng": 12.5756666
+  },
+  {
+    "id": 9,
+    "name": "Pomodoro D'oro",
+    "category": "Restaurant",
+    "cuisine": "Italiensk",
+    "location": "Amager Strandvej 130A",
+    "rating": 4.0,
+    "note": "Fantastisk smagsoplevelse og hjertevarm oplevelse, p\u00e5 en m\u00f8rk januar aften",
+    "lat": 55.6590135,
+    "lng": 12.6337506
+  },
+  {
+    "id": 10,
+    "name": "Restaurant Komplet",
+    "category": "Point of interest",
+    "cuisine": "Dansk",
+    "location": "Krystalgade 9",
+    "rating": 0.0,
+    "note": "",
+    "lat": 55.6809597,
+    "lng": 12.5741524
+  },
+  {
+    "id": 11,
+    "name": "Cafe Flottenheimer",
+    "category": "Caf\u00e9",
+    "cuisine": "International",
+    "location": "Skindergade 20",
+    "rating": 5.0,
+    "note": "Gr\u00f8n oase med god stemning og l\u00e6kker mad",
+    "lat": 55.68012940000001,
+    "lng": 12.5749683
+  },
+  {
+    "id": 12,
+    "name": "Mad & Kaffe",
+    "category": "Caf\u00e9",
+    "cuisine": "Europ\u00e6isk",
+    "location": "S\u00f8nder Boulevard 68",
+    "rating": 4.0,
+    "note": "Dejlig brunch trods mange mennesker",
+    "lat": 55.66597729999999,
+    "lng": 12.55035
+  },
+  {
+    "id": 13,
+    "name": "The Library Bar",
+    "category": "Bar",
+    "cuisine": "Cocktails",
+    "location": "Bernstorffsgade 4",
+    "rating": 1.0,
+    "note": "De aner intet om cocktails. Vi bad om to gin fizz. Alle ved ved det er med \u00e6ggehvider. Da vi p\u00e5 talte det vi havde f\u00e5et sagde hun at det hed en gin amore. S\u00e5 hed den gin fizz silver og s\u00e5 gin fizz Golden??? De var vist ikke helt sikre. Alle med en smugle kendskab ved der er \u00e6ggehvider i en ginfizz! Den nye vi fik var stort set udrikkelig. S\u00f8geligt for ellers s\u00e5dan et smukt sted.",
+    "lat": 55.67380600000001,
+    "lng": 12.5645409
+  },
+  {
+    "id": 14,
+    "name": "BrewPub Copenhagen",
+    "category": "Bar",
+    "cuisine": "\u00d8l",
+    "location": "Vestergade 29",
+    "rating": 3.5,
+    "note": "Godt udvalg af \u00f8l men ikke super hyggelig stemning",
+    "lat": 55.67713639999999,
+    "lng": 12.5694868
+  },
+  {
+    "id": 15,
+    "name": "Lidkoeb",
+    "category": "Point of interest",
+    "cuisine": "Cocktails",
+    "location": "Vesterbrogade 72B",
+    "rating": 0.0,
+    "note": "",
+    "lat": 55.6732915,
+    "lng": 12.5517213
+  },
+  {
+    "id": 16,
+    "name": "1656",
+    "category": "Bar",
+    "cuisine": "Cocktails",
+    "location": "Gasv\u00e6rksvej 33",
+    "rating": 5.0,
+    "note": "MIT YNDLINGSSTED ",
+    "lat": 55.6699366,
+    "lng": 12.5583858
+  },
+  {
+    "id": 17,
+    "name": "Alchemist",
+    "category": "Point of interest",
+    "cuisine": "Fine Dining",
+    "location": "Refshalevej 173C",
+    "rating": 0.0,
+    "note": "",
+    "lat": 55.6938136,
+    "lng": 12.614168
+  }
+]

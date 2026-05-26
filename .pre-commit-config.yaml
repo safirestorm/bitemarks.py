@@ -1,0 +1,14 @@
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.3.4
+    hooks:
+      - id: ruff
+        args: [--fix]
+  - repo: local
+    hooks:
+      - id: pytest
+        name: Run tests
+        entry: .venv/bin/pytest
+        language: system
+        pass_filenames: false
