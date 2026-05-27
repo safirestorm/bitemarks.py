@@ -44,10 +44,10 @@ for r in filtered:
     col1, col2, col3 = st.columns([5, 1, 1])
 
     with col1:
-        st.write(f"**{r['name']}** — {r['category']} - {r['cuisine']} — {r['location']} — ⭐ {r['rating']}")
+        st.markdown(f"**{r['name']}** &nbsp; ⭐ {r['rating']}")
+        st.caption(f"{r['category']} · {r['cuisine']} · {r['location']}")
         if r["note"]:
-            with st.expander("Se note"):
-                st.write(r["note"])
+            st.markdown(f"<blockquote style='font-size: 0.85em;'>{r['note']}</blockquote>", unsafe_allow_html=True)
 
     with col2:
         if st.button("Rediger", key=f"rediger_{r['id']}"):
@@ -57,3 +57,5 @@ for r in filtered:
         if st.button("Slet", key=f"slet_{r['id']}"):
             req.delete(f"{api_url}/{r['id']}")
             st.rerun()
+    
+    st.divider()

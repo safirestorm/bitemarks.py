@@ -25,18 +25,26 @@ with st.form(f"tilføj_restaurant_{st.session_state.form_key}"):
     save = st.form_submit_button("Tilføj restaurant")
 
 if save:
-    req.post(api_url, json={
-        "id": 0,
-        "name": name,
-        "category": category,
-        "cuisine": cuisine,
-        "location": location,
-        "rating": rating,
-        "note": note
-    })
-    st.success("Restaurant tilføjet!")
-    st.session_state.form_key += 1
-    st.rerun()
+    if not name or not location or not cuisine:
+        if not name:
+            st.error("Du mangler at tilføje et navn.")
+        if not location:
+            st.error("Du mangler at tilføje en adresse.")
+        if not cuisine:
+            st.error("Du mangler at tilføje cuisine.")
+    else:
+        req.post(api_url, json={
+            "id": 0,
+            "name": name,
+            "category": category,
+            "cuisine": cuisine,
+            "location": location,
+            "rating": rating,
+            "note": note
+        })
+        st.success("Restaurant tilføjet!")
+        st.session_state.form_key += 1
+        st.rerun()
 
 st.divider()
 st.subheader("Kort")

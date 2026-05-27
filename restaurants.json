@@ -141,5 +141,49 @@
     "note": "",
     "lat": 55.6938136,
     "lng": 12.614168
+  },
+  {
+    "id": 18,
+    "name": "Mokkariet",
+    "category": "Caf\u00e9",
+    "cuisine": "Brunch",
+    "location": "Mokkariet",
+    "rating": 2.0,
+    "note": "Overpriced C\u00e6sar salat",
+    "lat": 55.6963068,
+    "lng": 12.5513658
+  },
+  {
+    "id": 19,
+    "name": "Restaurant MUMA",
+    "category": "Restaurant",
+    "cuisine": "Tyrkisk",
+    "location": "Frederikssundsvej 123K",
+    "rating": 2.5,
+    "note": "",
+    "lat": 55.7058006,
+    "lng": 12.5109936
+  },
+  {
+    "id": 21,
+    "name": "Pizzeria Mamemi & Wine Bar",
+    "category": "Restaurant",
+    "cuisine": "Italiensk",
+    "location": "Mysundegade 28",
+    "rating": 5.0,
+    "note": "Bedste pizza ever!",
+    "lat": 55.6678802,
+    "lng": 12.5479272
+  },
+  {
+    "id": 23,
+    "name": "Donna",
+    "category": "Restaurant",
+    "cuisine": "Italiensk",
+    "location": "Vester Voldgade 25",
+    "rating": 4.5,
+    "note": "Virkelig god mad, har v\u00e6ret der flere gange. Meget aestetisk restaurant ogs\u00e5.",
+    "lat": 55.6773878,
+    "lng": 12.5678327
   }
 ]

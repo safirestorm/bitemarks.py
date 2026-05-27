@@ -55,7 +55,7 @@ else:
         st.subheader("Fordeling af ratings")
         rating_fordeling = df["rating"].value_counts().sort_index()
         fig, ax = plt.subplots()
-        ax.bar(rating_fordeling.index, rating_fordeling.values, color="#E67E22")
+        ax.bar(rating_fordeling.index, rating_fordeling.values, color="#E67E22", width=0.4)
         ax.set_xlabel("Rating")
         ax.set_ylabel("Antal")
         st.pyplot(fig)
